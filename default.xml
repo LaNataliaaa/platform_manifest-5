@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="LA.BR.1.2.9.1_rb1.5"/>
+  <remote  name="laos"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-15.1" />
+
+  <remote  name="CAF-MSM"
+           fetch="https://github.com/CAF-MSM"
+           revision="refs/heads/8.0-msm8916" />
+
+  <remote  name="caf"
+           fetch="http://source.codeaurora.org/quic/la"
+           review="codeaurora.org"/>
+
+  <remote  name="github"
+           fetch="https://github.com"/>
+
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com"/>
+
+  <default revision="refs/tags/LA.BR.1.2.9.1-01310-8x16.0"
+           remote="caf"
+           sync-j="4"
+           sync-c="true"/>
+
   <project name="device/common"/>
   <project name="device/generic/arm64"/>
   <project name="device/generic/armv7-a-neon"/>
