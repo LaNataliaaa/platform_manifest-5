@@ -534,7 +534,7 @@
   <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk"/>
   <project name="platform/tools/apksig" path="tools/apksig"/>
   <project name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
-  <project name="platform/tools/external/gradle" path="tools/external/gradle"/>
+  <project name="platform/tools/external/gradle" path="tools/external/gradle" clone-depth="1"/>
   <project name="platform/tools/loganalysis" path="tools/loganalysis"/>
   <project name="platform/tools/repohooks" path="tools/repohooks"/>
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity"/>
