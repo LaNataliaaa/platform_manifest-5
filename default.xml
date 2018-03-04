@@ -365,13 +365,8 @@
   <project name="platform/hardware/invensense" path="hardware/invensense"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl"/>
   <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
-  <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
@@ -534,7 +529,7 @@
   <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk"/>
   <project name="platform/tools/apksig" path="tools/apksig"/>
   <project name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
-  <project name="platform/tools/external/gradle" path="tools/external/gradle" clone-depth="1"/>
+  <project name="platform/tools/external/gradle" path="tools/external/gradle"/>
   <project name="platform/tools/loganalysis" path="tools/loganalysis"/>
   <project name="platform/tools/repohooks" path="tools/repohooks"/>
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity"/>
@@ -569,4 +564,6 @@
   <project name="platform/vendor/qcom/msm8916_32" path="device/qcom/msm8916_32"/>
   <project name="platform/vendor/qcom/msm8916_64" path="device/qcom/msm8916_64"/>
   <project name="toolchain/binutils"/>
+
+  <include name="custom_packages.xml" />
 </manifest>
