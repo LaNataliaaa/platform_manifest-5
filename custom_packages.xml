@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="external/bash" name="LineageOS/android_external_bash" />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" />
-  <project path="external/htop" name="LineageOS/android_external_htop" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
-  <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <project path="external/nano" name="LineageOS/android_external_nano" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
-  <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/zip" name="LineageOS/android_external_zip" />
-  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
+  <project path="external/bash" name="LineageOS/android_external_bash" remote="laos" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="laos" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="laos" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="laos" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="laos" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="laos" />
+  <project path="external/libtar" name="LineageOS/android_external_libtar" remote="laos" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="laos" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="laos" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="laos" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="laos" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="laos" />
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="laos" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="laos" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="laos" />
 
-<!--  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />-->
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
-<!--  <project path="external/brctl" name="LineageOS/android_external_brctl" />-->
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
-<!--  <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" />-->
-  <project path="external/powertop" name="LineageOS/android_external_powertop" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8916" />
-  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.1-caf" />
-  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8916" />
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
-  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8916" />
+<!--  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="laos" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="laos" />-->
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="laos" />
+<!--  <project path="external/brctl" name="LineageOS/android_external_brctl" remote="laos" />-->
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="laos" />
+<!--  <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="laos" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="laos" />-->
+  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="laos" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8916" remote="laos" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.1-caf" remote="laos" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8916" remote="laos" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="laos" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8916" remote="laos" />
 
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="laos" />
 
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" />
-  <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" />
-<!--  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" />-->
-<!--  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom_camera" />-->
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" />
-  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" />
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" />
-<!--  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" />-->
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="laos" />
+  <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="laos" />
+<!--  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="laos" />-->
+<!--  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom_camera" remote="laos" />-->
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="laos" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="laos" />
+  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="laos" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="laos" />
+<!--  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="laos" />-->
 
 </manifest>
