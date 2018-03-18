@@ -79,9 +79,9 @@
   <project name="platform/external/android-clat" path="external/android-clat" />
   <project name="platform/external/androidplot" path="external/androidplot" />
   <project name="platform/external/ant-glob" path="external/ant-glob" />
-  <project name="AOSP-CFA/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="o-mr1"/>
+  <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="o-mr1"/>
   <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service"/>
-  <project name="AOSP-CAF/platform_external_libweave" path="external/libweave" remote="github" revision="o-mr1" />
+  <project name="platform_external_libweave" path="external/libweave" remote="github" revision="o-mr1" />
   <project name="platform/external/antlr" path="external/antlr" />
   <project name="platform/external/apache-commons-math" path="external/apache-commons-math" />
   <project name="platform/external/apache-harmony" path="external/apache-harmony" />
