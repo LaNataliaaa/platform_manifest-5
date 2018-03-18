@@ -41,6 +41,6 @@
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
-  <project path="system/qcom" name="AOSP/platform_system_qcom" remote="github" revision="o-mr1" />
+  <project path="system/qcom" name="AOSP-CAF/platform_system_qcom" remote="github" revision="o-mr1" />
 
 </manifest>
