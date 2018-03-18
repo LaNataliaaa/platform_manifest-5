@@ -410,9 +410,9 @@
   <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal"/>
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr"/>
-  <project name="AOSP-CAF/platform_hardware_qcom_power" path="hardware/qcom/power"/>
+  <project name="AOSP-CAF/platform_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="o-mr1"/>
   <project name="AOSP-CAF/platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="o-mr1"/>
-  <project name="AOSP-CAF/platform_hardware_ril" path="hardware/ril" remote="github" revision="" />
+  <project name="AOSP-CAF/platform_hardware_ril" path="hardware/ril" remote="github" revision="o-mr1" />
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/libnativehelper" path="libnativehelper"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
